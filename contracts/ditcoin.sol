@@ -8,4 +8,13 @@ contract Ditcoin is ERC20 {
     constructor(uint initialSupply) ERC20("DitCoin, DTC") {
         _mint(msg.sender, initialSupply);
     }
+
+    function offer_dit() public payable {
+
+    }
+
+    function spin() {
+    }
+
+    function best_dit() {}
 }
